@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: unless-stopped
+    environment:
+      - SITE_DOMAINS=${SITE_DOMAINS}
+      - EMAIL=${EMAIL}
+      - PHONE_NUMBER=${PHONE_NUMBER}

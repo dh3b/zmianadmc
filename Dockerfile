@@ -1,0 +1,12 @@
+FROM caddy:2-alpine
+
+COPY Caddyfile /etc/caddy/Caddyfile
+COPY index.html /srv/index.html
+COPY style.css  /srv/style.css
+COPY script.js  /srv/script.js
+COPY public/    /srv/public/
+COPY entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
