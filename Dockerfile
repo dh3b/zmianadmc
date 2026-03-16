@@ -2,6 +2,7 @@ FROM caddy:2-alpine
 
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY index.html /srv/index.html
+COPY privacy-policy.html /srv/privacy-policy.html
 COPY style.css  /srv/style.css
 COPY script.js  /srv/script.js
 COPY public/    /srv/public/
