@@ -1,15 +1,7 @@
 {$SITE_DOMAINS} {
 	root * /srv
-	encode gzip zstd
 	rewrite /privacy-policy /privacy-policy.html
-
 	file_server
-
-	header {
-		X-Content-Type-Options "nosniff"
-		X-Frame-Options "DENY"
-		Referrer-Policy "strict-origin-when-cross-origin"
-	}
 
 	@static path *.css *.js *.png *.jpg *.jpeg *.svg *.ico *.webp *.woff2
 	header @static Cache-Control "public, max-age=31536000, immutable"
