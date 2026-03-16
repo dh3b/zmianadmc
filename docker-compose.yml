@@ -9,3 +9,10 @@ services:
       - SITE_DOMAINS=${SITE_DOMAINS}
       - EMAIL=${EMAIL}
       - PHONE_NUMBER=${PHONE_NUMBER}
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
