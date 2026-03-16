@@ -1,4 +1,4 @@
-${SITE_DOMAINS} {
+{$SITE_DOMAINS} {
 	root * /srv
 	file_server
 
