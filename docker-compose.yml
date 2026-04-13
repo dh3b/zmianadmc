@@ -7,6 +7,7 @@ services:
     restart: unless-stopped
     environment:
       - SITE_DOMAINS=${SITE_DOMAINS}
+      - SITE_DOMAIN=${SITE_DOMAIN}
       - EMAIL=${EMAIL}
       - PHONE_NUMBER=${PHONE_NUMBER}
     volumes:

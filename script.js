@@ -31,4 +31,26 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         els.forEach(el => el.classList.add('visible'));
     }
+
+    /* ── Language switcher: tap-to-toggle for touch & click ── */
+    const langSwitcher = document.querySelector('.lang-switcher');
+    if (langSwitcher) {
+        const btn = langSwitcher.querySelector('.lang-current');
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = langSwitcher.getAttribute('data-open') === 'true';
+            langSwitcher.setAttribute('data-open', String(!isOpen));
+            btn.setAttribute('aria-expanded', String(!isOpen));
+        });
+        document.addEventListener('click', () => {
+            langSwitcher.setAttribute('data-open', 'false');
+            btn.setAttribute('aria-expanded', 'false');
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                langSwitcher.setAttribute('data-open', 'false');
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 });

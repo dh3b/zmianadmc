@@ -1,11 +1,19 @@
 {$SITE_DOMAINS} {
 	root * /srv
 	rewrite /privacy-policy /privacy-policy.html
+
+	# Language subdirectories: redirect no-trailing-slash to trailing-slash
+	@langEn path /en
+	redir @langEn /en/ 301
+
+	@langRo path /ro
+	redir @langRo /ro/ 301
+
 	file_server
 
 	@static path *.css *.js *.png *.jpg *.jpeg *.svg *.ico *.webp *.woff2
 	header @static Cache-Control "public, max-age=31536000, immutable"
 
-	@html path *.html /
+	@html path *.html / /en/ /ro/
 	header @html Cache-Control "public, max-age=3600"
 }
