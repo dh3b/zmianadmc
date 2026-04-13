@@ -6,6 +6,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -15,6 +21,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -24,6 +36,102 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/cs/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/it/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/hu/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/uk/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://__SITE_DOMAIN__/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://__SITE_DOMAIN__/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://__SITE_DOMAIN__/en/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://__SITE_DOMAIN__/ro/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://__SITE_DOMAIN__/cs/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://__SITE_DOMAIN__/it/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://__SITE_DOMAIN__/hu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://__SITE_DOMAIN__/es/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://__SITE_DOMAIN__/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://__SITE_DOMAIN__/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://__SITE_DOMAIN__/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

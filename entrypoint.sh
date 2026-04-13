@@ -9,6 +9,12 @@ sed -i "s|__EMAIL__|${EMAIL}|g" /srv/script.js
 sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/index.html
 sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/en/index.html
 sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/ro/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/cs/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/it/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/hu/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/es/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/uk/index.html
+sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/ru/index.html
 sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/sitemap.xml
 sed -i "s|__SITE_DOMAIN__|${SITE_DOMAIN}|g" /srv/public/robots.txt
 
