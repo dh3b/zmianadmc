@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const CONVERSIONS = { phone: 'AW-17997426374/fdndCMKm47scEMbd64VD', email: 'AW-17997426374/K8sgCMWm47scEMbd64VD' };
+
     const phoneNumber = '__PHONE_NUMBER__';
     const email = '__EMAIL__';
 
@@ -14,6 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         el.href = info.href;
         const textNode = el.querySelector('.contact-text, .cc-value');
         if (textNode) textNode.textContent = info.display;
+
+        el.addEventListener('click', function () {
+            var type = el.dataset.contact; // "phone" or "email"
+            if (typeof window.gtag === 'function' && CONVERSIONS[type]) {
+                window.gtag('event', 'conversion', { send_to: CONVERSIONS[type] });
+            }
+        });
     });
 
     /* ── Fade-in observer ── */
