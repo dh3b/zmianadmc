@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const CONVERSIONS = { phone: 'AW-17997426374/fdndCMKm47scEMbd64VD', email: 'AW-17997426374/K8sgCMWm47scEMbd64VD' };
+    const CONVERSIONS = {
+        phone: { send_to: 'AW-17997426374/fdndCMKm47scEMbd64VD', value: 1.5, currency: 'PLN' },
+        email: { send_to: 'AW-17997426374/K8sgCMWm47scEMbd64VD', value: 0.5, currency: 'PLN' }
+    };
 
     const phoneNumber = '__PHONE_NUMBER__';
     const email = '__EMAIL__';
@@ -20,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         el.addEventListener('click', function () {
             var type = el.dataset.contact; // "phone" or "email"
             if (typeof window.gtag === 'function' && CONVERSIONS[type]) {
-                window.gtag('event', 'conversion', { send_to: CONVERSIONS[type] });
+                window.gtag('event', 'conversion', CONVERSIONS[type]);
             }
         });
     });
